@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Info: no test specified\" && exit 0",
-    "_version": "bash scripts/version.sh"
+    "_version": "bash scripts/version.sh",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -27,6 +29,8 @@
   },
   "dependencies": {
     "harmony-websocket": "^1.0.7",
-    "homebridge": ">=0.4.46"
-  }
+    "homebridge": ">=0.4.46",
+    "snyk": "^1.189.0"
+  },
+  "snyk": true
 }
