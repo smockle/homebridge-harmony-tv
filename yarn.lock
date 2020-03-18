@@ -352,9 +352,9 @@ has@^1.0.1, has@^1.0.3:
     function-bind "^1.1.1"
 
 homebridge@>=0.4.46:
-  version "0.4.50"
-  resolved "https://registry.yarnpkg.com/homebridge/-/homebridge-0.4.50.tgz#eac8cb4e61598c85112f47437f44cba65a71b0e5"
-  integrity sha512-V88ME6RLtSGcofXl77KAjlWlmC5O5bRY4BcyBbMjUkGYRdSUcPQUkEsFlGdchpxKoVqyoibHu/mQgN5dQADx7A==
+  version "0.4.53"
+  resolved "https://registry.yarnpkg.com/homebridge/-/homebridge-0.4.53.tgz#081b71d3cec93a02b903deb4beaa4945c90482b5"
+  integrity sha512-yi8GEKVEkQWeOE9CPmZiu+7dZzeiqzVX/P8suTd2h1hjXHiuots3UdZunEY4MOwNNPc8w62m47T9pbK6RZM4WA==
   dependencies:
     chalk "^1.1.1"
     commander "2.8.1"
