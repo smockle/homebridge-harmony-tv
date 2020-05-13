@@ -38,7 +38,7 @@
     "homebridge": "^1.0.0"
   },
   "devDependencies": {
-    "@types/node": "^13.13.4",
+    "@types/node": "^14.0.1",
     "typescript": "^3.8.3"
   }
 }
